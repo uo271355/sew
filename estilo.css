@@ -10,14 +10,14 @@ header{
 	padding:30px;
 	background:#E3F7FF;
 	text-align:center;
-	color:#008080;
+	color:#115451;
 }
 header h1{
 	font-size:50px;
 	font-style:oblique;
 	font-weight:800;
 	font-variant:small-caps;
-	color:#000084;
+	color:#115451;
 	background:#E3F7FF;
 }
 header p{
@@ -27,7 +27,7 @@ header p{
 	font-size:20px;
 }
 h2,h3,h4{
-	color:#48D1CC;
+	color:#792F95;
 	background-color:#FFFFFF;
 }
 
