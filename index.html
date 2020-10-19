@@ -6,7 +6,7 @@
 <meta charset="UTF-8"/>
 <meta name="keywords" content="html5, estandares,caracteres, diseño web"/>
 <meta name="description" content="The Terminator"/>
-<meta name="viewport" content="width=device-width, user-scalable=no"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" type="text/css" href="estilo.css"  />
 <link rel="stylesheet" type="text/css" href="estilo2.css"  />
 </head>
@@ -18,15 +18,22 @@
 </header>
 
 <ul>
-	<li><a href="index.html">Descripcion</a></li>
-	<li><a href="sinopsis.html">Sinopsis de la pelicula</a></li>
-	<li><a href="reparto.html">Reparto de la pelicula</a></li>
+	<li><a href="index.html">Inicio</a></li>
+	<li><a href="sinopsis.html">Sinopsis</a></li>
+	<li class="s"><a href="reparto.html" class="submenu">Reparto</a>
+		<div class="submenuContent">
+			<a href="reparto.html#1">Protagonistas</a>
+			<a href="reparto.html#2">Doblaje</a>
+			<a href="reparto.html#3">Personajes</a>
+		</div>
+	</li>
 	<li class="s"><a href="saga.html" class="submenu">Saga Terminator</a>
 		<div class="submenuContent">
 			<a href="saga.html#1">Peliculas</a>
 			<a href="saga.html#2">Material impresos</a>
 			<a href="saga.html#3">Serie de television</a>
 			<a href="saga.html#4">Videojuegos</a>
+			<a href="saga.html#5">Banda Sonora</a>
 		</div>
 	</li>
 	<li><a href="produccion.html">Producción</a></li>
