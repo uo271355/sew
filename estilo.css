@@ -26,18 +26,14 @@ header p{
 	background:#E3F7FF;
 	font-size:20px;
 }
-h2,h3{
+h2,h3,h4{
 	color:#48D1CC;
 	background-color:#FFFFFF;
 }
 
 
-p{
-	text-align: justify;
-}
 p img{
-	width:200px;
-	height:75px;
+	float:right;
 	margin-right:15px;
 }
 
@@ -51,7 +47,7 @@ ol li{
 
 
 td,th{
-	border: 1px solid #ddd;
+	border:1px solid;
 	padding:12px;
 	border-color:#B0138A;
 }
@@ -124,7 +120,9 @@ ul li a, .submenu{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
 
 
+	
 
 	
