@@ -1,16 +1,10 @@
+/*Selectores de especificidad 001*/
 body{
 	box-sizing: border-box;
 }
 nav{
 	
 	overflow:hidden;
-}
-nav a{
-	float:left;
-	display:block;
-}
-p img{
-	float:left;
 }
 figure{
 	float:left;
@@ -19,26 +13,42 @@ ul{
 
   overflow: hidden;
 }
+
+/*Selectores de especificidad 002*/
+nav a{
+	float:left;
+	display:block;
+}
+p img{
+	float:left;
+}
+
 ul li{
 	float:left;
 }
-ul li a, .submenu{
-  display: inline-block;
-}
 
-ul li.s{
-	display:inline-block;
-}
+/*Selectores de especificidad 010*/
 .submenuContent{
   display: none;
   z-index: 1;
 }
 
+/*Selectores de especificidad 011*/
 .submenuContent a{
   display: block;
 }
 
+/*Selectores de especificidad 012*/
+ul li.s{
+	display:inline-block;
+}
 
+/*Selectores de especificidad 013*/
+ul li a, .submenu{
+  display: inline-block;
+}
+
+/*Selectores de especificidad 030*/
 .s:hover .submenuContent{
 	display:block;
 }
