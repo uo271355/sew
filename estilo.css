@@ -1,3 +1,4 @@
+/*Selectores de especificidad 001*/
 body{
 	font-family:Verdana, sans-serif;
 	font-size:15px;
@@ -11,45 +12,6 @@ header{
 	background:#E3F7FF;
 	text-align:center;
 	color:#115451;
-}
-header h1{
-	font-size:50px;
-	font-style:oblique;
-	font-weight:800;
-	font-variant:small-caps;
-	color:#115451;
-	background:#E3F7FF;
-}
-header p{
-	text-align:center;
-	color:#000084;
-	background:#E3F7FF;
-	font-size:20px;
-}
-h2,h3,h4{
-	color:#792F95;
-	background-color:#FFFFFF;
-}
-
-
-p img{
-	float:right;
-	margin-right:15px;
-}
-
-ol{
-	list-style-type: square;
-}
-
-ol li{
-	list-style-type: square;
-}
-
-
-td,th{
-	border:1px solid;
-	padding:12px;
-	border-color:#B0138A;
 }
 th{
 	background:#F394DC;
@@ -87,24 +49,62 @@ ul{
   background-color:#6497AC;
   color:black;
 }
+ol{
+	list-style-type: square;
+}
+
+/*Selectores de especidicidad 002*/
+header h1{
+	font-size:50px;
+	font-style:oblique;
+	font-weight:800;
+	font-variant:small-caps;
+	color:#115451;
+	background:#E3F7FF;
+}
+header p{
+	text-align:center;
+	color:#000084;
+	background:#E3F7FF;
+	font-size:20px;
+}
+
+p img{
+	float:right;
+	margin-right:15px;
+}
+
+
+ol li{
+	list-style-type: square;
+}
+
+
+td,th{
+	border:1px solid;
+	padding:12px;
+	border-color:#B0138A;
+}
+
 
 ul li{
 	list-style-type:none;
 }
 
+/*Selectores especificidad 003*/
+h2,h3,h4{
+	color:#792F95;
+	background-color:#FFFFFF;
+}
+
+/*Selectores especificidad 010*/
 .submenuContent{
   position: absolute;
   min-width: 160px;
   color: white;
 }
-div a:hover{
-	background-color:#E3F7FF;
-	color:black;
-}
-li a:hover{
-	background-color:#E3F7FF;
-	color:black;
-}
+
+/*Selectores especificidad 011*/
 .submenuContent a{
   color: black;
   background-color:#6497AC;
@@ -113,6 +113,17 @@ li a:hover{
   text-align:left;
 }
 
+/*Selectores especificidad 012*/
+div a:hover{
+	background-color:#E3F7FF;
+	color:black;
+}
+li a:hover{
+	background-color:#E3F7FF;
+	color:black;
+}
+
+/*Selectores especificidad 013*/
 ul li a, .submenu{
   background-color:#6497AC;
   color: black;
